@@ -1,0 +1,296 @@
+{
+  "package": "citywalk-art-assets-clean",
+  "asset_count": 29,
+  "assets": [
+    {
+      "index": 1,
+      "file": "hero-bg-city-sunny.webp",
+      "source": "阳光明媚的城市街景.png",
+      "format": "WEBP",
+      "size": {
+        "width": 1430,
+        "height": 1100
+      }
+    },
+    {
+      "index": 2,
+      "file": "hero-skyline-overlay.png",
+      "source": "上海天际线素描.png",
+      "format": "PNG",
+      "size": {
+        "width": 964,
+        "height": 763
+      }
+    },
+    {
+      "index": 3,
+      "file": "hero-route-path.png",
+      "source": "光辉路径与定位标记.png",
+      "format": "PNG",
+      "size": {
+        "width": 1367,
+        "height": 550
+      }
+    },
+    {
+      "index": 4,
+      "file": "hero-book-pin-glow.png",
+      "source": "蓝色定位图标与书籍图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 741,
+        "height": 1089
+      }
+    },
+    {
+      "index": 5,
+      "file": "hero-script-citywalk.png",
+      "source": "霓虹手写citywalk字样.png",
+      "format": "PNG",
+      "size": {
+        "width": 1783,
+        "height": 656
+      }
+    },
+    {
+      "index": 6,
+      "file": "soft-particle-overlay.png",
+      "source": "梦幻光点与透光粒子.png",
+      "format": "PNG",
+      "size": {
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "index": 7,
+      "file": "icon-compass-top.png",
+      "source": "光泽蓝色指南针图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 981,
+        "height": 976
+      }
+    },
+    {
+      "index": 8,
+      "file": "icon-setting-top.png",
+      "source": "蓝色齿轮图标按钮.png",
+      "format": "PNG",
+      "size": {
+        "width": 1070,
+        "height": 1079
+      }
+    },
+    {
+      "index": 9,
+      "file": "stamp-shanghai-postmark.png",
+      "source": "蓝色城市印章.png",
+      "format": "PNG",
+      "size": {
+        "width": 1095,
+        "height": 914
+      }
+    },
+    {
+      "index": 10,
+      "file": "icon-chip-clock.png",
+      "source": "蓝色时钟图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 844,
+        "height": 867
+      }
+    },
+    {
+      "index": 11,
+      "file": "icon-chip-route.png",
+      "source": "亮蓝色连接路径图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 963,
+        "height": 732
+      }
+    },
+    {
+      "index": 12,
+      "file": "icon-chip-rare.png",
+      "source": "金色星徽勋章.png",
+      "format": "PNG",
+      "size": {
+        "width": 982,
+        "height": 1015
+      }
+    },
+    {
+      "index": 13,
+      "file": "reward-exp-badge.png",
+      "source": "未来感蓝色水晶徽章.png",
+      "format": "PNG",
+      "size": {
+        "width": 1059,
+        "height": 1058
+      }
+    },
+    {
+      "index": 14,
+      "file": "reward-stamp-badge.png",
+      "source": "光滑的蓝色印章图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 793,
+        "height": 1011
+      }
+    },
+    {
+      "index": 15,
+      "file": "reward-chest-badge.png",
+      "source": "金色宝箱插画.png",
+      "format": "PNG",
+      "size": {
+        "width": 1000,
+        "height": 849
+      }
+    },
+    {
+      "index": 16,
+      "file": "cta-shoe-map-left.png",
+      "source": "运动鞋与城市地图图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 1105,
+        "height": 763
+      }
+    },
+    {
+      "index": 17,
+      "file": "cta-compass-ticket-right.png",
+      "source": "旅行指南图标和票卡设计.png",
+      "format": "PNG",
+      "size": {
+        "width": 1105,
+        "height": 852
+      }
+    },
+    {
+      "index": 18,
+      "file": "spark-yellow-accent.png",
+      "source": "金色光辉闪烁.png",
+      "format": "PNG",
+      "size": {
+        "width": 583,
+        "height": 436
+      }
+    },
+    {
+      "index": 19,
+      "file": "player-medal-lv12.png",
+      "source": "探险启航勋章.png",
+      "format": "PNG",
+      "size": {
+        "width": 1147,
+        "height": 1121
+      }
+    },
+    {
+      "index": 20,
+      "file": "icon-upgrade-gift.png",
+      "source": "闪亮蓝色礼物盒.png",
+      "format": "PNG",
+      "size": {
+        "width": 819,
+        "height": 894
+      }
+    },
+    {
+      "index": 21,
+      "file": "qa-map-clue.png",
+      "source": "折叠地图和放大镜图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 1094,
+        "height": 869
+      }
+    },
+    {
+      "index": 22,
+      "file": "qa-nearby-task.png",
+      "source": "蓝色指南针与定位标记.png",
+      "format": "PNG",
+      "size": {
+        "width": 894,
+        "height": 1032
+      }
+    },
+    {
+      "index": 23,
+      "file": "qa-achievement.png",
+      "source": "荣耀徽章设计.png",
+      "format": "PNG",
+      "size": {
+        "width": 1150,
+        "height": 987
+      }
+    },
+    {
+      "index": 24,
+      "file": "qa-route-save.png",
+      "source": "蓝色标记图标与路径符号.png",
+      "format": "PNG",
+      "size": {
+        "width": 781,
+        "height": 1013
+      }
+    },
+    {
+      "index": 25,
+      "file": "card-wave-lines.png",
+      "source": "轻盈的波浪线条.png",
+      "format": "PNG",
+      "size": {
+        "width": 1148,
+        "height": 409
+      }
+    },
+    {
+      "index": 26,
+      "file": "nav-home-active.png",
+      "source": "明亮蓝色家图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 923,
+        "height": 954
+      }
+    },
+    {
+      "index": 27,
+      "file": "nav-task.png",
+      "source": "现代3d风格便签图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 676,
+        "height": 811
+      }
+    },
+    {
+      "index": 28,
+      "file": "nav-album.png",
+      "source": "冰蓝色书本图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 796,
+        "height": 837
+      }
+    },
+    {
+      "index": 29,
+      "file": "nav-profile.png",
+      "source": "简洁的用户头像图标.png",
+      "format": "PNG",
+      "size": {
+        "width": 689,
+        "height": 785
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "name": "bg-dossier-sunny",
+    "png": "png/bg-dossier-sunny.png",
+    "webp": "webp/bg-dossier-sunny.webp",
+    "size": [
+      1080,
+      2400
+    ],
+    "actual_size": [
+      1080,
+      2400
+    ],
+    "transparent_alpha": false
+  },
+  {
+    "name": "hero-case-mermaid-bookstore",
+    "png": "png/hero-case-mermaid-bookstore.png",
+    "webp": "webp/hero-case-mermaid-bookstore.webp",
+    "size": [
+      720,
+      960
+    ],
+    "actual_size": [
+      720,
+      960
+    ],
+    "transparent_alpha": false
+  },
+  {
+    "name": "deco-top-secret-stamp",
+    "png": "png/deco-top-secret-stamp.png",
+    "webp": "webp/deco-top-secret-stamp.webp",
+    "size": [
+      420,
+      180
+    ],
+    "actual_size": [
+      420,
+      180
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "deco-paper-texture",
+    "png": "png/deco-paper-texture.png",
+    "webp": "webp/deco-paper-texture.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "actual_size": [
+      1024,
+      1024
+    ],
+    "transparent_alpha": false
+  },
+  {
+    "name": "deco-map-lines",
+    "png": "png/deco-map-lines.png",
+    "webp": "webp/deco-map-lines.webp",
+    "size": [
+      1200,
+      800
+    ],
+    "actual_size": [
+      1200,
+      800
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "deco-city-skyline-line",
+    "png": "png/deco-city-skyline-line.png",
+    "webp": "webp/deco-city-skyline-line.webp",
+    "size": [
+      1000,
+      360
+    ],
+    "actual_size": [
+      1000,
+      360
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "deco-gold-corners",
+    "png": "png/deco-gold-corners.png",
+    "webp": "webp/deco-gold-corners.webp",
+    "size": [
+      512,
+      512
+    ],
+    "actual_size": [
+      512,
+      512
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "deco-sparkles",
+    "png": "png/deco-sparkles.png",
+    "webp": "webp/deco-sparkles.webp",
+    "size": [
+      800,
+      800
+    ],
+    "actual_size": [
+      800,
+      800
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "deco-paperclip",
+    "png": "png/deco-paperclip.png",
+    "webp": "webp/deco-paperclip.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-compass-gold",
+    "png": "png/icon-compass-gold.png",
+    "webp": "webp/icon-compass-gold.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-location-pin",
+    "png": "png/icon-location-pin.png",
+    "webp": "webp/icon-location-pin.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-flag",
+    "png": "png/icon-flag.png",
+    "webp": "webp/icon-flag.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-mainline",
+    "png": "png/icon-mainline.png",
+    "webp": "webp/icon-mainline.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-hidden-cube",
+    "png": "png/icon-hidden-cube.png",
+    "webp": "webp/icon-hidden-cube.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-clock",
+    "png": "png/icon-clock.png",
+    "webp": "webp/icon-clock.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-objective-search",
+    "png": "png/icon-objective-search.png",
+    "webp": "webp/icon-objective-search.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-objective-camera",
+    "png": "png/icon-objective-camera.png",
+    "webp": "webp/icon-objective-camera.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-objective-chat",
+    "png": "png/icon-objective-chat.png",
+    "webp": "webp/icon-objective-chat.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "icon-objective-lock",
+    "png": "png/icon-objective-lock.png",
+    "webp": "webp/icon-objective-lock.webp",
+    "size": [
+      128,
+      128
+    ],
+    "actual_size": [
+      128,
+      128
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "reward-exp-star",
+    "png": "png/reward-exp-star.png",
+    "webp": "webp/reward-exp-star.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "reward-coin",
+    "png": "png/reward-coin.png",
+    "webp": "webp/reward-coin.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "reward-crystal",
+    "png": "png/reward-crystal.png",
+    "webp": "webp/reward-crystal.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "reward-trophy",
+    "png": "png/reward-trophy.png",
+    "webp": "webp/reward-trophy.webp",
+    "size": [
+      256,
+      256
+    ],
+    "actual_size": [
+      256,
+      256
+    ],
+    "transparent_alpha": true
+  },
+  {
+    "name": "avatar-collector-chenyu",
+    "png": "png/avatar-collector-chenyu.png",
+    "webp": "webp/avatar-collector-chenyu.webp",
+    "size": [
+      512,
+      512
+    ],
+    "actual_size": [
+      512,
+      512
+    ],
+    "transparent_alpha": false
+  },
+  {
+    "name": "avatar-barista-linxiao",
+    "png": "png/avatar-barista-linxiao.png",
+    "webp": "webp/avatar-barista-linxiao.webp",
+    "size": [
+      512,
+      512
+    ],
+    "actual_size": [
+      512,
+      512
+    ],
+    "transparent_alpha": false
+  },
+  {
+    "name": "avatar-resident-zhouyuan",
+    "png": "png/avatar-resident-zhouyuan.png",
+    "webp": "webp/avatar-resident-zhouyuan.webp",
+    "size": [
+      512,
+      512
+    ],
+    "actual_size": [
+      512,
+      512
+    ],
+    "transparent_alpha": false
+  }
+]

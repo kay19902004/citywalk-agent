@@ -1,0 +1,35 @@
+{
+  "name": "citywalk-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.6.2",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --import tsx --test test/*.test.ts",
+    "audit:assets": "node scripts/audit-assets.mjs",
+    "seed": "node --import tsx src/lib/content-pipeline.ts"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "openai": "^6.39.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.6",
+    "@types/react-dom": "19.2.3"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
+  }
+}

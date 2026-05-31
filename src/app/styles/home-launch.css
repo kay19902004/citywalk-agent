@@ -1,0 +1,286 @@
+/* Home redesign: pre-adventure launch console */
+.hero-start-card {
+  min-height: 278px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  background:
+    radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.34), transparent 16%),
+    radial-gradient(circle at 22% 84%, rgba(255, 209, 102, 0.26), transparent 18%),
+    linear-gradient(135deg, #0c7ee3 0%, #12a6e8 44%, #10b7b1 100%);
+}
+
+.hero-start-card::before {
+  right: -52px;
+  bottom: -52px;
+  width: 210px;
+  height: 210px;
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow:
+    inset 0 0 0 22px rgba(255, 255, 255, 0.04),
+    0 0 0 42px rgba(255, 255, 255, 0.04);
+}
+
+.hero-start-card h1 {
+  max-width: 278px;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+.hero-start-card p {
+  max-width: 256px;
+  font-weight: 700;
+}
+
+.hero-path {
+  right: 8px;
+  top: 18px;
+  width: 196px;
+  height: 118px;
+  border-top-color: rgba(255, 255, 255, 0.42);
+}
+
+.hero-compass {
+  left: auto !important;
+  right: 25px;
+  bottom: 84px;
+  width: 66px;
+  height: 66px;
+  opacity: 0.46;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+.hero-compass i {
+  height: 36px;
+}
+
+.hero-console {
+  bottom: 18px;
+}
+
+.hero-console span {
+  min-height: 38px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.hud-badge.main {
+  bottom: 72px;
+}
+
+.player-status-card {
+  padding: 18px;
+  gap: 12px;
+}
+
+.player-status-top,
+.section-mini-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.player-status-top span,
+.player-status-top em {
+  color: var(--primary);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.player-status-top em {
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.player-status-card strong {
+  font-size: 24px;
+}
+
+.player-mini-stats,
+.city-coordinate-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.player-mini-stats span,
+.city-coordinate-row span {
+  padding: 7px 9px;
+  border-radius: 999px;
+  background: rgba(19, 136, 232, 0.08);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.player-mini-stats span:nth-child(2) {
+  background: var(--orange-soft);
+  color: #d77a00;
+}
+
+.player-mini-stats span:nth-child(3),
+.city-coordinate-row span:first-child {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.city-card {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  padding: 18px;
+}
+
+.city-card label {
+  margin-top: 4px;
+}
+
+.city-card input {
+  min-height: 56px;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.city-card .secondary-action {
+  justify-self: stretch;
+}
+
+.quick-panel,
+.launch-loadout-card {
+  display: grid;
+  gap: 14px;
+}
+
+.section-mini-heading .eyebrow {
+  margin: 0;
+}
+
+.section-mini-heading strong {
+  color: var(--text-main);
+  font-size: 18px;
+}
+
+.quick-actions {
+  gap: 9px;
+}
+
+.quick-actions a,
+.quick-actions button {
+  justify-items: start;
+  min-height: 96px;
+  padding: 12px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.quick-actions span {
+  width: 34px;
+  height: 34px;
+  border-radius: 14px;
+}
+
+.quick-actions strong {
+  font-size: 14px;
+}
+
+.quick-actions small {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.quick-actions a:first-child {
+  border-color: rgba(255, 159, 28, 0.28);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 247, 228, 0.98));
+}
+
+.quick-actions a:first-child span {
+  background: var(--orange-soft);
+  color: #d77a00;
+}
+
+.launch-loadout-card {
+  overflow: hidden;
+  position: relative;
+}
+
+.launch-loadout-card::after {
+  content: "";
+  position: absolute;
+  right: -46px;
+  top: -46px;
+  width: 132px;
+  height: 132px;
+  border: 1px dashed rgba(19, 136, 232, 0.16);
+  border-radius: 50%;
+}
+
+.launch-loadout-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.launch-loadout-card .choice-grid legend {
+  color: var(--text-sub);
+  font-size: 13px;
+}
+
+.launch-loadout-card .choice-grid button {
+  min-height: 64px;
+  border-radius: 18px;
+}
+
+.launch-map-action {
+  position: relative;
+  overflow: hidden;
+  min-height: 78px;
+  border-radius: 24px;
+  font-size: 19px;
+  background:
+    radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.24), transparent 20%),
+    linear-gradient(135deg, #ff9f1c 0%, #1388e8 52%, #10b7b1 100%);
+  box-shadow: 0 18px 36px rgba(19, 136, 232, 0.24), 0 12px 28px rgba(255, 159, 28, 0.18);
+}
+
+.launch-map-action::after {
+  content: "";
+  position: absolute;
+  left: -30%;
+  top: -80%;
+  width: 44%;
+  height: 260%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.28), transparent);
+  transform: rotate(22deg);
+  animation: ctaShine 3.2s ease-in-out infinite;
+}
+
+@keyframes ctaShine {
+  0%, 46% {
+    translate: 0 0;
+  }
+  72%, 100% {
+    translate: 360% 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-start-card {
+    min-height: 266px;
+  }
+
+  .hero-start-card h1 {
+    font-size: 32px;
+  }
+
+  .quick-actions a,
+  .quick-actions button {
+    min-height: 88px;
+    padding: 10px;
+  }
+}

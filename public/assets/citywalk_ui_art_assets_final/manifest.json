@@ -1,0 +1,170 @@
+[
+  {
+    "name": "bg-city-sunny",
+    "png": "png/bg-city-sunny.png",
+    "webp": "webp/bg-city-sunny.webp",
+    "size": [
+      1080,
+      2400
+    ],
+    "transparent": false,
+    "true_alpha_png": null,
+    "true_alpha_webp": null,
+    "alpha_min": null,
+    "alpha_max": null
+  },
+  {
+    "name": "deco-cloud-swoosh",
+    "png": "png/deco-cloud-swoosh.png",
+    "webp": "webp/deco-cloud-swoosh.webp",
+    "size": [
+      900,
+      260
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 229
+  },
+  {
+    "name": "deco-leaves-top",
+    "png": "png/deco-leaves-top.png",
+    "webp": "webp/deco-leaves-top.webp",
+    "size": [
+      1080,
+      360
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "deco-map-pattern",
+    "png": "png/deco-map-pattern.png",
+    "webp": "webp/deco-map-pattern.webp",
+    "size": [
+      900,
+      600
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 70
+  },
+  {
+    "name": "deco-sparkles",
+    "png": "png/deco-sparkles.png",
+    "webp": "webp/deco-sparkles.webp",
+    "size": [
+      600,
+      600
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 244
+  },
+  {
+    "name": "hero-wukang-bookstore",
+    "png": "png/hero-wukang-bookstore.png",
+    "webp": "webp/hero-wukang-bookstore.webp",
+    "size": [
+      1080,
+      760
+    ],
+    "transparent": false,
+    "true_alpha_png": null,
+    "true_alpha_webp": null,
+    "alpha_min": null,
+    "alpha_max": null
+  },
+  {
+    "name": "icon-compass-blue",
+    "png": "png/icon-compass-blue.png",
+    "webp": "webp/icon-compass-blue.webp",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "icon-compass-gold",
+    "png": "png/icon-compass-gold.png",
+    "webp": "webp/icon-compass-gold.webp",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "icon-field-note",
+    "png": "png/icon-field-note.png",
+    "webp": "webp/icon-field-note.webp",
+    "size": [
+      300,
+      300
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "icon-stamp",
+    "png": "png/icon-stamp.png",
+    "webp": "webp/icon-stamp.webp",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "icon-treasure",
+    "png": "png/icon-treasure.png",
+    "webp": "webp/icon-treasure.webp",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "name": "thumb-bookstore-polaroid",
+    "png": "png/thumb-bookstore-polaroid.png",
+    "webp": "webp/thumb-bookstore-polaroid.webp",
+    "size": [
+      360,
+      360
+    ],
+    "transparent": true,
+    "true_alpha_png": true,
+    "true_alpha_webp": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  }
+]

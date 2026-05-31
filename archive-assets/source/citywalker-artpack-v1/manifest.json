@@ -1,0 +1,43 @@
+{
+  "version": "citywalker-artpack-v1",
+  "notes": [
+    "Generated from the 7 uploaded AI art files.",
+    "Sprite sheets have been split automatically.",
+    "Text should be rendered by code, not images.",
+    "Do not generate SVGs for missing assets."
+  ],
+  "assets": {
+    "backgrounds": {
+      "licenseCardPng": "backgrounds/license-card-bg.png",
+      "licenseCardWebp": "backgrounds/license-card-bg.webp"
+    },
+    "decorations": {
+      "citySeal": "decorations/city-seal.png",
+      "shanghaiSkyline": "decorations/shanghai-skyline-watermark.png"
+    },
+    "stats": {
+      "completedSpot": "icons/stats/completed-spot.png",
+      "hiddenEgg": "icons/stats/hidden-egg.png",
+      "historyAdventure": "icons/stats/history-adventure.png",
+      "explorationRating": "icons/stats/exploration-rating.png"
+    },
+    "badges": {
+      "route_starter": "badges/route-starter.png",
+      "hidden_story": "badges/hidden-story.png",
+      "local_food": "badges/local-food.png",
+      "history_clue": "badges/history-clue.png",
+      "sunrise_walker": "badges/sunrise-walker.png",
+      "night_walker": "badges/night-walker.png",
+      "bridge_crosser": "badges/bridge-crosser.png",
+      "museum_discovery": "badges/museum-discovery.png",
+      "alley_explorer": "badges/alley-explorer.png",
+      "photo_spot": "badges/photo-spot.png",
+      "map_master": "badges/map-master.png",
+      "master_adventurer": "badges/master-adventurer.png",
+      "locked": "badges/locked.png"
+    },
+    "emptyStates": {
+      "badges": "empty-states/badge-empty-state.png"
+    }
+  }
+}

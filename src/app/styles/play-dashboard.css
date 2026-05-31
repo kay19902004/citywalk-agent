@@ -1,0 +1,338 @@
+/* Play page redesign: mission dashboard hierarchy */
+.mission-panel {
+  min-height: 312px;
+  padding: 20px;
+  border: 1px solid rgba(98, 199, 242, 0.24);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 86% 14%, rgba(98, 199, 242, 0.24), transparent 18%),
+    radial-gradient(circle at 16% 88%, rgba(255, 159, 28, 0.18), transparent 20%),
+    linear-gradient(135deg, #071b31 0%, #075f9f 56%, #079d98 100%);
+}
+
+.mission-panel::after {
+  right: -36px;
+  bottom: -44px;
+  width: 150px;
+  height: 150px;
+  border-width: 16px;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.mission-panel-top {
+  align-items: center;
+}
+
+.mission-panel-top span,
+.mission-panel-top em {
+  min-height: 30px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(223, 246, 255, 0.94);
+  backdrop-filter: blur(10px);
+}
+
+.mission-panel-top em {
+  color: #9ff6ee;
+}
+
+.mission-panel h2 {
+  max-width: 270px;
+  margin-top: 2px;
+  font-size: 31px;
+  line-height: 1.12;
+}
+
+.mission-target-box {
+  margin-top: 16px;
+  padding: 14px;
+  border-color: rgba(159, 246, 238, 0.3);
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+}
+
+.mission-target-box p {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.mission-panel small {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 209, 102, 0.22);
+  border-radius: 16px;
+  background: rgba(255, 159, 28, 0.14);
+  color: #fff4d8;
+}
+
+.mission-panel-action {
+  margin-top: 16px;
+}
+
+.scan-quest-action {
+  display: grid;
+  min-height: 72px;
+  border-radius: 22px;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-shadow: 0 1px 0 rgba(15, 39, 66, 0.14);
+  background: linear-gradient(135deg, #0da6d6 0%, #128ee4 48%, #10b7b1 100%);
+  box-shadow: 0 18px 34px rgba(13, 166, 214, 0.24), 0 12px 26px rgba(16, 183, 177, 0.18);
+}
+
+.scan-quest-action::after {
+  content: "LIVE SCAN";
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  color: rgba(255,255,255,0.38);
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.task-hub-actions {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.task-hub-actions a {
+  min-height: 88px;
+  border-radius: 22px;
+}
+
+.task-hub-actions a:nth-child(3) {
+  border-color: rgba(19, 136, 232, 0.2);
+  background: linear-gradient(135deg, #fff, #f2f9ff);
+}
+
+.task-hub-actions a:nth-child(3) span {
+  background: #eaf6ff;
+  color: var(--primary);
+}
+
+.mission-progress-board {
+  overflow: hidden;
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.94), rgba(245,251,255,0.96)),
+    linear-gradient(90deg, rgba(19, 136, 232, 0.05) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(19, 136, 232, 0.05) 1px, transparent 1px);
+  background-size: auto, 28px 28px, 28px 28px;
+}
+
+.mission-progress-board::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  top: -42px;
+  width: 126px;
+  height: 126px;
+  border: 1px dashed rgba(19, 136, 232, 0.16);
+  border-radius: 50%;
+}
+
+.mission-progress-board > * {
+  position: relative;
+  z-index: 1;
+}
+
+.progress-meter-list {
+  display: grid;
+  gap: 12px;
+}
+
+.progress-meter {
+  display: grid;
+  gap: 8px;
+}
+
+.progress-meter div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--text-main);
+}
+
+.progress-meter strong {
+  font-size: 13px;
+}
+
+.progress-meter span {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.progress-meter.orange span {
+  color: #d77a00;
+}
+
+.progress-meter.blue span {
+  color: var(--primary);
+}
+
+.progress-meter i {
+  display: block;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(19, 136, 232, 0.09);
+}
+
+.progress-meter b {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), #4ee6c4);
+}
+
+.progress-meter.orange b {
+  background: linear-gradient(90deg, var(--orange), #ffd166);
+}
+
+.progress-meter.blue b {
+  background: linear-gradient(90deg, var(--primary), #62c7f2);
+}
+
+.intel-card {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 12px;
+  align-items: start;
+  border-color: rgba(16, 183, 177, 0.2);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(235, 255, 252, 0.96));
+}
+
+.intel-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 17px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  font-size: 22px;
+  font-weight: 900;
+  font-style: italic;
+  box-shadow: inset 0 0 0 1px rgba(16, 183, 177, 0.14);
+}
+
+.intel-card h2 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.intel-card p {
+  margin: 7px 0 0;
+}
+
+.intel-card span {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  background: rgba(16, 183, 177, 0.08);
+  color: #087c78;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.route-map-card {
+  position: relative;
+}
+
+.route-map-track {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  height: 76px;
+  margin: 2px 0 16px;
+  border-radius: 22px;
+  background:
+    linear-gradient(90deg, rgba(19, 136, 232, 0.06) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(19, 136, 232, 0.06) 1px, transparent 1px),
+    #f7fbff;
+  background-size: 24px 24px;
+}
+
+.route-map-track::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 50%;
+  border-top: 3px dashed rgba(19, 136, 232, 0.22);
+}
+
+.route-map-track i {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  justify-self: center;
+  width: 22px;
+  height: 22px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: var(--text-muted);
+  box-shadow: 0 8px 18px rgba(15, 39, 66, 0.12);
+}
+
+.route-map-track i.completed {
+  background: var(--teal);
+}
+
+.route-map-track i.current {
+  width: 28px;
+  height: 28px;
+  background: var(--orange);
+  box-shadow: 0 0 0 8px rgba(255, 159, 28, 0.12), 0 8px 18px rgba(15, 39, 66, 0.12);
+}
+
+.route-map-track i.locked {
+  background: #9fb0c2;
+  opacity: 0.72;
+}
+
+.route-node {
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.route-node.current {
+  margin-left: 0;
+}
+
+.route-node span {
+  background: rgba(255,255,255,0.78);
+}
+
+.npc-tip-card {
+  border-color: rgba(255, 159, 28, 0.2);
+  background: linear-gradient(135deg, #fff, #fff8eb);
+}
+
+.scene-text-card {
+  background: rgba(255, 255, 255, 0.82);
+}
+
+@media (max-width: 390px) {
+  .mission-panel {
+    min-height: 300px;
+    padding: 18px;
+  }
+
+  .task-hub-actions {
+    gap: 8px;
+  }
+
+  .task-hub-actions a {
+    min-height: 82px;
+    padding: 11px;
+  }
+}

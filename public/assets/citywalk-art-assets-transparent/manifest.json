@@ -1,0 +1,234 @@
+[
+  {
+    "file": "hero-bg-city-sunny.webp",
+    "size": [
+      1430,
+      1100
+    ],
+    "mode": "RGB"
+  },
+  {
+    "file": "hero-skyline-overlay.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "hero-route-path.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "hero-book-pin-glow.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "hero-script-citywalk.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "soft-particle-overlay.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-compass-top.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-setting-top.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "stamp-shanghai-postmark.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-chip-clock.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-chip-route.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-chip-rare.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "reward-exp-badge.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "reward-stamp-badge.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "reward-chest-badge.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "cta-shoe-map-left.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "cta-compass-ticket-right.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "spark-yellow-accent.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "player-medal-lv12.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "icon-upgrade-gift.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "qa-map-clue.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "qa-nearby-task.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "qa-achievement.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "qa-route-save.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "card-wave-lines.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "nav-home-active.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "nav-task.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "nav-album.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "file": "nav-profile.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  }
+]

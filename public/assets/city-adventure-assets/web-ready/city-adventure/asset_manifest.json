@@ -1,0 +1,249 @@
+{
+  "package": "city-adventure-ui-assets",
+  "version": "1.0.0",
+  "description": "移动端游戏首页《城市冒险 / City Adventure》UI 美术资产包。顶部玩家资源栏已移除，文字建议由前端 HTML/CSS 渲染。",
+  "asset_root_for_web": "public/assets/city-adventure/",
+  "notes": [
+    "web-ready/city-adventure/ 内文件已按前端命名整理。",
+    "除 bg_city_day.webp 外，其余素材均已尝试处理为透明背景。",
+    "若个别素材仍有少量棋盘格痕迹，建议美术二次抠图或在前端同色背景下使用。",
+    "小号中文文案不要烘焙进图片，建议由前端代码渲染。"
+  ],
+  "assets": [
+    {
+      "filename": "bg_city_day.webp",
+      "source_filename": "阳光明媚的都市街景.png",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1920,
+      "transparent": false,
+      "usage": "主背景：晴天城市街道，预留标题和底部按钮区域"
+    },
+    {
+      "filename": "logo_city_adventure.webp",
+      "source_filename": "城市冒险游戏logo.png",
+      "format": "WEBP",
+      "width": 2172,
+      "height": 724,
+      "transparent": true,
+      "usage": "大标题 Logo：城市冒险"
+    },
+    {
+      "filename": "route_glow.webp",
+      "source_filename": "霓虹路径与光环指示.png",
+      "format": "WEBP",
+      "width": 887,
+      "height": 1774,
+      "transparent": true,
+      "usage": "发光探索路线"
+    },
+    {
+      "filename": "btn_primary_glow.webp",
+      "source_filename": "未来感光亮按钮.png",
+      "format": "WEBP",
+      "width": 2508,
+      "height": 627,
+      "transparent": true,
+      "usage": "主按钮底图：开始冒险"
+    },
+    {
+      "filename": "btn_secondary_frost.webp",
+      "source_filename": "清新透明的玻璃按钮.png",
+      "format": "WEBP",
+      "width": 2804,
+      "height": 561,
+      "transparent": true,
+      "usage": "次按钮底图：游客体验"
+    },
+    {
+      "filename": "panel_daily.webp",
+      "source_filename": "未来风格游戏菜单界面.png",
+      "format": "WEBP",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "左侧今日探索/进度面板底图"
+    },
+    {
+      "filename": "panel_task_gold.webp",
+      "source_filename": "金色奖励面板与宝箱.png",
+      "format": "WEBP",
+      "width": 2172,
+      "height": 724,
+      "transparent": true,
+      "usage": "金色任务卡/奖励卡底图"
+    },
+    {
+      "filename": "panel_task_white.webp",
+      "source_filename": "闪耀金边ui面板.png",
+      "format": "WEBP",
+      "width": 2172,
+      "height": 724,
+      "transparent": true,
+      "usage": "白金剧情任务卡底图"
+    },
+    {
+      "filename": "panel_small_blue.webp",
+      "source_filename": "现代透明_ui_元素.png",
+      "format": "WEBP",
+      "width": 1774,
+      "height": 887,
+      "transparent": true,
+      "usage": "蓝色玻璃拟态地点信息卡"
+    },
+    {
+      "filename": "panel_small_green.webp",
+      "source_filename": "绿色光泽ui元素.png",
+      "format": "WEBP",
+      "width": 1774,
+      "height": 887,
+      "transparent": true,
+      "usage": "绿色玻璃拟态探索点信息卡"
+    },
+    {
+      "filename": "icon_gift.png",
+      "source_filename": "蓝色礼物徽章图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右上角活动图标"
+    },
+    {
+      "filename": "icon_bag.png",
+      "source_filename": "发光背包徽章图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右上角背包图标"
+    },
+    {
+      "filename": "icon_mail.png",
+      "source_filename": "蓝色邮件图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右上角邮件图标"
+    },
+    {
+      "filename": "icon_map.png",
+      "source_filename": "未来蓝图标徽.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右下角城市地图图标"
+    },
+    {
+      "filename": "icon_compass.png",
+      "source_filename": "蓝色指南针图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右下角附近探索图标"
+    },
+    {
+      "filename": "icon_footprint.png",
+      "source_filename": "蓝色足迹图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "右下角足迹图标"
+    },
+    {
+      "filename": "icon_weather_sun.png",
+      "source_filename": "光辉阳光徽章图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "左侧天气太阳图标"
+    },
+    {
+      "filename": "icon_chest.png",
+      "source_filename": "魔法宝箱闪耀光芒.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "宝箱图标"
+    },
+    {
+      "filename": "icon_star.png",
+      "source_filename": "金色星星徽章.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "神秘任务星标图标"
+    },
+    {
+      "filename": "icon_book.png",
+      "source_filename": "魔法之书与金羽毛.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "剧情任务书本图标"
+    },
+    {
+      "filename": "icon_pin_blue.png",
+      "source_filename": "霓虹蓝定位图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "蓝色定位点"
+    },
+    {
+      "filename": "icon_pin_green.png",
+      "source_filename": "发光绿色地图标记图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "绿色定位点"
+    },
+    {
+      "filename": "icon_pin_orange.png",
+      "source_filename": "明亮的地图定位图标.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "橙色定位点"
+    },
+    {
+      "filename": "avatar_boy.webp",
+      "source_filename": "阳光少年与冒险风_jacket.png",
+      "format": "WEBP",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "剧情角色头像/少年 NPC"
+    },
+    {
+      "filename": "fx_sparkles.png",
+      "source_filename": "魔法闪光粒子轨迹.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "transparent": true,
+      "usage": "星光粒子特效叠层"
+    },
+    {
+      "filename": "nav_sign.webp",
+      "source_filename": "精致的街道指示牌设计.png",
+      "format": "WEBP",
+      "width": 1086,
+      "height": 1448,
+      "transparent": true,
+      "usage": "左侧街道路牌装饰"
+    }
+  ],
+  "missing_sources": []
+}

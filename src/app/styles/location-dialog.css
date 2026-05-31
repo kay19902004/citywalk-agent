@@ -1,0 +1,160 @@
+/* Location page redesign: field calibration panel */
+.location-status-card {
+  grid-template-columns: 58px 1fr;
+  align-items: start;
+  padding: 18px;
+  border-color: rgba(16, 183, 177, 0.2);
+  background:
+    radial-gradient(circle at 86% 18%, rgba(16, 183, 177, 0.18), transparent 18%),
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(235, 255, 252, 0.96)),
+    linear-gradient(90deg, rgba(16, 183, 177, 0.045) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(16, 183, 177, 0.045) 1px, transparent 1px);
+  background-size: auto, auto, 28px 28px, 28px 28px;
+}
+
+.calibration-step {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 28px;
+  align-items: center;
+  padding: 0 9px;
+  border-radius: 999px;
+  background: rgba(19, 136, 232, 0.08);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
+.location-status-card > .calibration-step {
+  grid-column: 1 / -1;
+  margin-bottom: 2px;
+}
+
+.location-status-card h2 {
+  margin: 0;
+  font-size: 23px;
+}
+
+.location-status-card p {
+  color: var(--text-sub);
+  line-height: 1.56;
+}
+
+.status-orb {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+}
+
+.status-orb::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border: 1px dashed rgba(16, 183, 177, 0.28);
+  border-radius: 24px;
+  animation: calibrationPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes calibrationPulse {
+  50% {
+    transform: scale(1.04);
+    opacity: 0.55;
+  }
+}
+
+.location-lock-row {
+  margin-top: 12px;
+}
+
+.calibration-action-card {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border-color: rgba(255, 159, 28, 0.22);
+  background:
+    radial-gradient(circle at 84% 18%, rgba(255, 159, 28, 0.16), transparent 18%),
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(255, 249, 235, 0.96));
+}
+
+.calibration-action-card h2 {
+  margin: 10px 0 0;
+  font-size: 24px;
+}
+
+.calibration-action-card p {
+  margin: 8px 0 0;
+  color: var(--text-sub);
+  line-height: 1.58;
+}
+
+.calibration-action-card .primary-action {
+  min-height: 76px;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 78% 42%, rgba(255,255,255,0.24), transparent 20%),
+    linear-gradient(135deg, #ff9f1c 0%, #1388e8 58%, #10b7b1 100%);
+  box-shadow: 0 18px 34px rgba(19, 136, 232, 0.2), 0 10px 24px rgba(255, 159, 28, 0.16);
+}
+
+.location-form-card {
+  padding: 18px;
+  border-color: rgba(19, 136, 232, 0.16);
+}
+
+.location-form-card .card-heading {
+  margin-bottom: 2px;
+}
+
+.location-form-card .card-heading p {
+  margin: 8px 0 0;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+.field-input-row {
+  gap: 9px;
+  padding: 12px;
+  border: 1px solid rgba(206, 224, 239, 0.86);
+  border-radius: 18px;
+  background: rgba(248, 251, 255, 0.82);
+}
+
+.field-input-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-main);
+  font-weight: 900;
+}
+
+.field-input-row span b {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  background: #eaf6ff;
+  color: var(--primary);
+  font-size: 11px;
+}
+
+.field-input-row input,
+.field-input-row textarea {
+  border-radius: 14px;
+  background: #fff;
+}
+
+.field-input-row textarea {
+  min-height: 118px;
+}
+
+.precision-card {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(246,251,255,0.96));
+}
+
+.security-card {
+  border-color: rgba(16, 183, 177, 0.14);
+}
