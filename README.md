@@ -222,12 +222,5 @@ npm run build
 
 确认素材合规后，再通过 `STORY_LIBRARY_ROOT` 指向部署内的素材目录。
 
-## Repository Notes
 
-- `.env.local`、`.env.*`、`.next`、`node_modules` 均已忽略，不会提交真实密钥和构建缓存。
-- 仓库审核期间保持 public。
-- 审核结束后如有需要，可以再改回 private。
 
-## License
-
-This project is currently submitted for hackathon review. Please contact the repository owner before reusing generated assets or project-specific materials.
